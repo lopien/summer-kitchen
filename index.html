@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Летняя кухня</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/normalize.css">
+</head>
+<body>
+
+  <header class="header container">
+    <div class="header__logo">
+      <img src="img/header/logo.svg" alt="logo">
+    </div>
+    <div class="header__links">
+      <a class="link" href="">Продукция</a>
+      <a class="link" href="">Коллекции</a>
+      <a class="link" href="">Блог и новости</a>
+      <a class="link" href="">О компании</a>
+      <a class="link" href="">Контакты</a>
+    </div>
+    <div class="header__phone">
+      <img src="img/header/phone.svg" alt="phone">
+      <a class="phone_link" href="">8 (800) 789-57-15</a>
+    </div>
+  </header>
+
+  <section class="main container">
+    <div class="main__bg">
+      <div class="container">
+        <h2 class="title main__title">Идеальная одежда для поездок за город</h2>
+        
+        <div class="main__text">
+          <div class="line"></div>
+          <p class="text">Индивидуальные коллекции, уникальный дизайн, ручной<br> пошив, качественные материалы</p>
+        </div>
+
+        <div class="main__links">
+          <button class="phone"><img src="img/main/phone.svg" alt="phone"></button>
+          <button class="mail"><img src="img/main/mail.svg" alt="mail"></button>
+        </div>
+
+        <div class="slides">
+          <div class="main__slides">
+            <div class="slide_link active_slide">
+              <span class="slide ">01</span>
+            </div>
+            <div class="slide_link">
+              <span class="slide">02</span>
+            </div>
+            <div class="slide_link">
+              <span class="slide">03</span>
+            </div>
+            
+          </div>
+          <div class="main__arrows">
+            <button class="arrow left_arrow"><img src="img/main/arrow.svg" alt="arrow"></button>
+            <button class="arrow right_arrow"><img src="img/main/arrow.svg" alt="arrow"></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="clothes container">
+    <div class="clothes__info">
+      <a href="" class="clothes__navigation">Главная / Коллекции / Одежда для поездок, путешествий и походов</a>
+      <h2 class="title clothes__title">Лучшая одежда для поездок,<br> путешествий и походов</h2>
+      <p class="clothes__text">Outfit (аутфит) и существует для того, чтобы мода стала ближе, доступнее и понятнее. Реплики и копии моделей от знаменитых дизайнеров, а так же вещи с модных показов, можно найти практически в любом модном магазине, а вот составить комплект из них сможет далеко не каждый. Некоторых не плохо выручают фото, выставленные в сети, где кто-то более смелый, грамотно сочетая предметы гардероба создаёт замечательный и близкий вашему духу образ. Источник: https://www.relook.ru/vocabulary/view/outfit.html</p>
+    </div>
+  </section>
+
+  <section class="things container">
+    <div class="row">
+      <h2 class="title things__title">Популярные вещи на лето</h2>
+      <a href="" class="things__link">Каталог<img src="img/catalog/arrow.svg" alt="arrow"></a>
+    </div>
+    <div class="things__catalog">
+      <img src="img/catalog/clothe_1.jpg" alt="">
+      <img src="img/catalog/clothe_2.jpg" alt="">
+      <img src="img/catalog/clothe_3.jpg" alt="">
+      <img src="img/catalog/clothe_4.jpg" alt="">
+    </div>
+  </section>
+
+  <section class="projects container">
+    <div class="projects__column">
+      <h2 class="title project__title">Летние коллекции </h2>
+      <h3 class="project__subtitle">Для прогулки по лесу</h3>
+      <p class="project__text">Когда есть спрос – всегда появятся и предложения. У многих людей, желающих выглядеть и одеваться модно и стильно, иногда просто нет времени на качественный шопинг и тем более на модный показ. Кто-то вообще ещё не определился со своим стилем или не уверен в собственном вкусе. Бывает, что приобретаешь просто замечательную вещь, которая и сидит отлично и чувствуешь себя в ней комфортно, а вот одеть её не с чем.</p>
+      <div class="project__arrows">
+        <button class="arrow left_arrow"><img src="img/main/arrow.svg" alt="arrow"></button>
+        <button class="arrow right_arrow"><img src="img/main/arrow.svg" alt="arrow"></button>
+      </div>
+    </div>
+    <div class="projects__column">
+      <a href="" class="things__link">Все коллекции<img src="img/catalog/arrow.svg" alt="arrow"></a>
+      <img class="project__img" src="/img/clothes/bg.jpg" alt="">
+    </div>
+  </section>
+
+  <div class="feedback">
+    <div class="container feedback__row">
+      <div>
+        <h2 class="feedback__title">Закажите индивидуальную коллекцию</h2>
+        <form class="feedback__form" action="">
+          <div class="flex__row">
+            <div class="flex__column">
+
+              <div class="form_input">
+                <input class="form" type="text" id="form__name" placeholder=" " >
+                <label class="form_label" for="form__name">ФИО*</label>
+                <span class="error__name">Обязательное поле!</span>
+              </div>
+              <div class="form_input">
+                <input class="form " type="tel" id="form_phone" placeholder=" " >
+                <label class="form_label" for="form_phone">Телефон*</label>
+                <span class="error__email">Обязательное поле!</span>
+              </div>
+              <div class="form_input">
+                <input class="form form_email" type="email" id="form_email" placeholder=" ">
+                <label class="form_label" for="form_email">E-mail</label>
+              </div>
+            </div>
+
+            <div class="flex__column">
+              <div class="form_input">
+                <input class="form " type="text" id="form_company" placeholder=" ">
+                <label class="form_label" for="form_company">Компания</label>
+              </div>
+              <div class="form_input">
+                <textarea class="form " id="form_message" placeholder=" "></textarea>
+                <label class="form_label" for="form_message">Сообщение</label>
+              </div>
+            </div>
+          </div>
+
+          <div class="flex__row">
+            <span class="form__text">Нажимая кнопку «Отправить», даю согласие на обработку<br> персональных данных, указанных <a class="form__policy" href="#">Политики конфиденциальности</a></span>
+            <input type="submit" class="form__submit" value="Отправить">
+          </div>
+        </form>
+      </div>
+      <div class="feedback__card">
+        <h4 class="card__title">Остались вопросы? Звоните!</h4>
+        <h2 class="card__phone">8 (800) 789 48 56</h2>
+        <a href="#" class="card__mail">mail@mail.com</a>
+        <img class="card__img" src="img/feedback/avatar.png" alt="avatar">
+        <h2 class="card__name">Иван Акипаев</h2>
+        <h4 class="card__profession">менеджер отдела продаж</h4>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container">
+      <div class="footer__header">
+        <img class="footer__logo" src="img/header/logo.svg" alt="">
+        <div class="footer__social">
+          <button class="social"><img src="img/footer/vk.svg" alt="vk"></button>
+          <button class="social"><img src="img/footer/facebook.svg" alt="facebook"></button>
+          <button class="social"><img src="img/footer/youtube.svg" alt="youtube"></button>
+          <button class="social"><img class="social_inst" src="img/footer/instagram.svg" alt="instagram"></button>
+        </div>
+      </div>
+      <div class="footer__links">
+        <div class="address">
+          <span class="link_address">ООО «Собергер».<br> Россия, г. Москва, ул. Арбат, 1а, 119019</span>
+          <a href="" class="link_phone">
+            <img src="img/footer/phone.svg" alt="phone">
+            <span class="link_text">8 (800) 789-56-15</span>
+          </a>
+          <a href="" class="link_mail">
+            <img src="img/footer/mail.svg" alt="mail">
+            <span class="link_text">email@email.com</span>
+          </a>
+        </div>
+        <div class="company">
+          <h4 class="footer_title">Компания</h4>
+          <a class="footer_link" href="">Блог и новости</a>
+          <a class="footer_link" href="">О компании</a>
+          <a class="footer_link" href="">Контакты</a>
+        </div>
+        <div class="products">
+          <h4 class="footer_title">Продукты и коллекции</h4>
+          <a class="footer_link" href="">Коллекции</a>
+          <a class="footer_link" href="">Проекты</a>
+          <a class="footer_link footer_save" href="">
+            <img src="img/footer/save.svg" alt="save">
+            <span>Скачать каталог</span>
+          </a>
+        </div>
+        <div class="common">
+          <h4 class="footer_title">Общее</h4>
+          <a class="footer_link" href="">Политика конфиденциальности</a>
+          <a class="footer_link" href="">Пользовательское соглашение</a>
+          <a class="footer_link" href="">Сроки и условия</a>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="container">
+      <div class="footer__bottom">
+        <span>© 2021, «Собергер». Все права защищены.</span>
+        <span>Разработка — <a href="" class="footer_save">Picom</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/js/script.js"></script>
+
+</body>
+</html>
